@@ -24,7 +24,7 @@ transform = transforms.Compose([
     transforms.ToTensor(),
     transforms.Normalize([0.5], [0.5])
 ])
-dataset = datasets.ImageFolder(root="/home/bruhjeshh/Coding /PE-2/archive", transform=transform)
+dataset = datasets.ImageFolder(root="/home/bruhjeshh/Coding /PE-2/GAN", transform=transform)
 dataloader = DataLoader(dataset, batch_size=batch_size, shuffle=True)
 
 # Move models to GPU if available

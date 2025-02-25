@@ -1,7 +1,7 @@
 
 import os
 
-dataset_path = "/home/bruhjeshh/Coding /PE-2/archive"  # Update this with your actual path
+dataset_path = "/home/bruhjeshh/Coding /PE-2/GAN/archive"  # Update this with your actual path
 
 # List the first few files
 print("Dataset files:", os.listdir(dataset_path)[:10])
