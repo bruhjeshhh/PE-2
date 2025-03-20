@@ -60,10 +60,10 @@ transform = transforms.Compose([
 ])
 
 # Set dataset path
-dataset_path = "/home/bruhjeshh/Coding /anothatry/dataset"  # Adjust path
+dataset_path = "/home/bruhjeshh/Coding /PE-2/Resnet50+GradCam/dataset"  # Adjust path
 
 # Load dataset
-dataset = datasets.ImageFolder(root=dataset_path, transform=transform)
+dataset = datasets.ImageFolder(root=dataset_path, transform=transform) 
 dataloader = torch.utils.data.DataLoader(dataset, batch_size=3, shuffle=True)
 
 # Get class names
